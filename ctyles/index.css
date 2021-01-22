@@ -1,0 +1,17 @@
+.about-me {
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.avatar-section {
+    display: flex;
+}
+
+.avatar-block img {
+    max-width: 300px;
+}
+
+.personal-data-block {
+    padding-left: 10px;
+}
