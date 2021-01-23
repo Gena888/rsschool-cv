@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
     font-family: "Open Sans";
     src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
@@ -13,29 +15,43 @@
     line-height: 22px;
 }
 
+.coll-1-2 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+/* about me block */
+
 .about-me {
     display: block;
-    max-width: 960px;
     margin: 0 auto;
+    max-width: 960px;
     font-family: Georgia, serif;
     color: #34342E;
 }
 
+.about-me a {
+    color: #34342E;
+}
+
 .greeting {
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
+/* avatar section  */
 
 .avatar-section {
     display: flex;
 }
 
 .avatar-block img {
+    padding: 5px;
     max-width: 300px;
     border: solid 5px #746C5E;
     border-radius: 50%;
-    padding: 5px;
 }
 
 .personal-data-block {
@@ -49,7 +65,6 @@
 .personal-data-block h3 {
     position: absolute;
     top: -5%;
-    /* left: 10%; */
 }
 
 .personal-data-block_info li {
@@ -57,7 +72,7 @@
     list-style-type: none;
 }
 
-.name {}
+/* personal data block  */
 
 .date-of-birth {
     margin-left: 18px;
@@ -83,12 +98,12 @@
     margin-left: 18px;
 }
 
-.linkedIn {}
+/* objective  */
 
 .objective-section {
     display: flex;
-    margin-left: 20px;
     flex-direction: column;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -96,20 +111,12 @@
     margin-left: 20px;
 }
 
-.coll-1-2 {
-    display: flex;
-    width: 45%;
-    flex-direction: column;
-}
+/* skills grid  */
 
 .skills-block {
     display: flex;
     justify-content: center;
 }
-
-.skills-row {}
-
-.general-knowledge-row {}
 
 .tech-skills-section {
     min-height: 170px;
@@ -133,6 +140,8 @@
     max-height: 190px;
 }
 
+/* several facts block  */
+
 .several-facts-section {
     margin-left: 20px;
     margin-top: 30px;
@@ -141,6 +150,8 @@
 .several-facts-section ul {
     margin-left: 10px;
 }
+
+/* prev job section  */
 
 .prev-job-section {
     margin-top: 40px;
@@ -154,4 +165,22 @@
 
 .prev-job-section ul {
     margin-left: 10px;
+}
+
+/* droping projects block  */
+
+.projects-images {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0;
+}
+
+.projects-images-button:focus, .projects-images-button summary:focus {
+    outline: none;
+}
+
+.projects-images img {
+    max-width: 400px;
+    padding: 5px;
 }
