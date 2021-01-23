@@ -176,11 +176,16 @@
     margin: 0;
 }
 
-.projects-images-button:focus, .projects-images-button summary:focus {
+.projects-images-details:focus, .projects-images-details summary:focus {
     outline: none;
 }
 
 .projects-images img {
     max-width: 400px;
     padding: 5px;
+}
+
+.projects-images-details {
+    margin-top: -15px;
+    margin-left: 52px;
 }
