@@ -37,6 +37,21 @@
     max-width: 960px;
     font-family: Georgia, serif;
     color: #34342E;
+    font-size: 16px;
+    /* position: relative;
+    left: -30px; */
+}
+
+.about-me h4 {
+    font-size: 16px;
+}
+
+.about-me li {
+    font-size: 16px;
+}
+
+.projects-images-details {
+    font-size: 16px;
 }
 
 .about-me a {
@@ -60,6 +75,7 @@
     max-width: 300px;
     border: solid 5px #746C5E;
     border-radius: 50%;
+    margin-top: 65px;
 }
 
 .personal-data-block {
@@ -70,10 +86,10 @@
     margin-left: -30px;
 }
 
-.personal-data-block h3 {
+/* .personal-data-block h3 {
     position: absolute;
-    top: -5%;
-}
+    top: 0%;
+} */
 
 .personal-data-block_info li {
     padding-bottom: 10px;
@@ -106,13 +122,18 @@
     margin-left: 18px;
 }
 
+.tech-skills-section {
+    max-width: 200px;
+}
+
 /* objective  */
 
 .objective-section {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .objective-section span {
@@ -124,6 +145,7 @@
 .skills-block {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .tech-skills-section {
@@ -148,9 +170,15 @@
     max-height: 190px;
 }
 
+.info-block {
+    max-width: 250px;
+}
+
 /* several facts block  */
 
 .several-facts-section {
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
     margin-top: 30px;
 }
@@ -160,25 +188,32 @@
 }
 
 .first-row {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.second-row {
+    margin-top: 10px;
 }
 
 /* prev job section  */
 
 .prev-job-section {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
     margin-left: 20px;
     min-width: 300px;
 }
 
 .prev-job-section h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 20px;
 }
 
 .prev-job-section ul {
     margin-left: 10px;
 }
-
 
 /* droping projects block  */
 
@@ -201,4 +236,28 @@
 .projects-images-details {
     margin-top: -15px;
     margin-left: 52px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+    .about-me {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .about-me h3 {
+        font-size: 22px;
+    }
+    li {
+        line-height: 1.6em;
+    }
+    .first-row {
+        margin-bottom: 40px;
+    }
+    .several-facts-section ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
