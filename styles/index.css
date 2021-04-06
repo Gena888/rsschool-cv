@@ -23,6 +23,14 @@
 
 /* about me block */
 
+.about-me .greeting {
+    opacity: 0;
+    position: absolute;
+    top: -999;
+    left: -999;
+    z-index: -999;
+}
+
 .about-me {
     display: block;
     margin: 0 auto;
