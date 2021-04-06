@@ -159,6 +159,10 @@
     margin-left: 10px;
 }
 
+.first-row {
+    margin-bottom: 30px;
+}
+
 /* prev job section  */
 
 .prev-job-section {
@@ -174,6 +178,7 @@
 .prev-job-section ul {
     margin-left: 10px;
 }
+
 
 /* droping projects block  */
 
